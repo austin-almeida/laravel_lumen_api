@@ -17,7 +17,7 @@ class ExaminfoController extends Controller
 		
 			$data = Examinfo::all();
 			$status = true;
-			$info = "Successfully fetched data";
+			$info = "Successfully fetched data from table";
 			return ResponseBuilder::result($status,$info,$data);
 			
 	}
